@@ -52,4 +52,4 @@ module x_end_motor(){
  }
 }
 
-x_end_motor();
+mirror([0,1,0]) x_end_motor();
