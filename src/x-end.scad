@@ -50,7 +50,7 @@ translate(v=[-15,-41.5,6]) rotate(a=[-90,0,0]) pushfit_rod(8.1,68);
 translate(v=[-15,-41.5,rod_distance+6]) rotate(a=[-90,0,0]) pushfit_rod(8.1,68);
 // Nut trap
  translate(v=[0,-30,6.8]) poly_cylinder(h = 20, r=10/2, $fn=25);
- translate(v=[0,-30,-0.5]) rotate([0,0,30]) cylinder(h = 7, r=15.2/2, $fn = 6);
+ translate(v=[0,-30,-0.5]) rotate([0,0,30]) cylinder(h = 7, r=15.8/2, $fn = 6);
 }
 
 
